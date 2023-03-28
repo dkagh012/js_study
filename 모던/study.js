@@ -1,10 +1,3 @@
-const person = new Object();
-
-person.name = 'Lee';
-person.sayHello = function () {
-  console.log(this.name);
-
-}
-
-console.log(person.name);
-person.sayHello();
+const date = new Date();
+console.log(typeof date);
+console.log(date);
